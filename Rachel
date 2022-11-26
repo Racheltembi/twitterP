@@ -1,0 +1,13 @@
+#!/bin/bash
+#This script is for rachels personal bank stuff
+# database = user Rachel teck
+passwd admin123
+card pin 1986
+echo please enter your username
+read username
+if $username -e database.sql then
+echo continue
+echo please enter your passwd
+echo sorry you entered the wrong username
+ 
+
